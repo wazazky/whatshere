@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whatshere"
+version = "1.0.0"
+description = "Lista todos los archivos visibles del proyecto en un archivo .txt"
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [
+  { name="Wazazky" }
+]
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows"
+]
+
+[project.scripts]
+whatshere = "whatshere.__main__:main"
