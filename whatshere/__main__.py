@@ -2,7 +2,7 @@ import os
 
 def main():
     carpeta_actual = os.getcwd()
-    excluir = {'WhatsHere.py'}
+    excluir = {'WhatsHere.py','__main__.py'}
     archivos = []
 
     for carpeta, subcarpetas, archivos_en_carpeta in os.walk(carpeta_actual):
